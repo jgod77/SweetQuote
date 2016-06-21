@@ -1,0 +1,93 @@
+/*All of your styling should go in this file*/
+
+.background{
+  background-color: #FFFFFF;
+  transition: background-color 0.5s ease;
+}
+
+#container{
+  text-align: center;
+  height: 250px;
+}
+
+#tab{
+  padding-left: 80px;
+  -ms-transform: rotate(-14deg); /* IE 9 */
+  -webkit-transform: rotate(-14deg); /* Chrome, Safari, Opera */
+  transform: rotate(-14deg);
+  margin-top: 0px;
+}
+
+.header{
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Shadows Into Light', cursive;
+  color: #000000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.quoteBody{
+  text-align: center;
+  font-size: 35px;
+  color: #00D4FF;
+  font-family: Verdana;
+}
+
+.source{
+  text-align: center;
+  font-size: 35px;
+  color: #333333;
+}
+.auth{
+  font-size: 25px;
+  color: #7C7C7C;
+}
+
+.clickButton{
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.quotesImg{
+  width: 70px;
+}
+
+#openQuote{
+  float: right;
+}
+#closeQuote{
+  float: left;
+}
+#center{
+  text-align: center;
+}
+
+#show{
+  font-size: 20px;
+}
+
+
+.wellBar{
+  text-align: right;
+  font-family: Verdana;
+  font-size: 30px;
+}
+
+#filter{
+  margin-left: 20px;
+}
+
+.selected{
+  color: #00D4FF;
+}
+
+#cancel{
+  text-align: center;
+  height: 35px;
+  width: 35px;
+  background-color: rgba(239,0,0,0.6);
+  display: none;
+  font-size: 25px;
+  float: right;
+}
